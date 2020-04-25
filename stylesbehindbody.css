@@ -1,0 +1,158 @@
+body{
+    background-color: #f8b595;   
+    
+    border-color: #c06c84;
+
+
+}
+.navbar-light{
+    color: #c06c84 ;
+    border-color: #c06c84;
+    
+}
+.navbar navbar-light bg-light{
+    background-color: #c06c84;
+    border-color: #c06c84;
+}
+
+.form-control{
+    color: #c06c84;
+    border-color: #c06c84;
+}
+
+.card{
+    border-color: #f8b595;  
+}
+.card-body{
+    background-color: #f67280;
+}
+
+
+
+.btn{
+background-color: #c06c84;
+border-color: #c06c84;
+color: white;
+transition: all 0.5s;
+  cursor: pointer;
+}
+
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+::placeholder{
+color: black;
+opacity: 1;    
+}
+
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+  }
+  
+  .chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+
+
+
+
+#title{
+    background-color: #f67280;
+    color:black;
+}
+#description{
+    background-color: #f67280;
+    color:black;
+}
+
+#formTask{
+    background-color: #f8b595;
+    color:black;
+}
+
+#contenido{
+    color: #6c5b7c;
+}
+
+
+
+
+
+
+.card2 {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    color: black;
+  }
+  
+  .title2 {
+    color: black;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+
+  hr {
+    border: 10px solid #c06c84;
+    border-radius: 5px;
+  }
